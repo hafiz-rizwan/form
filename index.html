@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Forms</title>
+    <style>
+ 
+    </style>
+</head>
+<body>
+   
+    <nav class="navbar">
+        <div class="container">
+            <h2 class="imp"> IMPORTANT ANNOUNCEMENT</h2>
+            <p><b>Onsite Admissions are open for Peshawar only (Courses are Web & App Development, AI & Chatbot, Graphic Designing, Video Animation & CCNA)</b></p>
+        </div>
+    </nav>
+
+    <header >
+        <div class="hero">
+
+        </div>
+    </header>
+
+    <div>
+        <form>
+            <div class="f1">
+            <label for="city">Select city</label>
+            <label for="Course" class="space">Select Course</label><br>
+            <select name="city" placeholder="select city">
+                <option value="" selected disabled>Select city</option>
+                <option value="karachi">karachi</option>
+                <option value="Lahore"> Lahore</option>
+                <option value="Peshawar">Peshawar</option>
+             </select>
+
+             
+             <select name="course">
+                <option value="" selected disabled>Select Course</option>
+                <option value="chatbot">Ai-Chatbot </option>
+                <option value="Web Development">Web Development</option>
+                <option value="data science">Data science</option>
+             </select>
+            </div>
+            
+            <div class="f1">
+                <label for="fullname">Full Name</label>
+                <label for="fathername" class="space">Father's Name</label><br>
+                <input type="text" name="fullname" id="" placeholder="Full Name">
+                <input type="text" name="fathername" id="" placeholder="Faathr's Name">
+            </div>
+
+            <div class="f1"> 
+                <label for="email">Email</label>
+                <label for="Phone" class="space">Phone Number</label><br>
+                <input type="email" name="email" id="" placeholder="Email">
+                <input type="number" name="phone" id="" placeholder="phone Number">
+            </div>
+
+            <div class="f1">
+                <label for="cnic">CNIC</label>
+                <label for="fcnic" class="spac">Father's CNIC (optional)</label><br>
+                <input type="number" name="cnic" id="" placeholder="CNIC">
+                <input type="number" name="fcnic" id="" placeholder="Father's CNIC (optional)">
+            </div>
+            
+            <div class="f1">
+                <label for="dob">Date of Birth</label>
+                <label for="gender" class="space">Select Gender</label><br>
+                <input type="date" name="dob" id="" placeholder="Date of Birth">
+                <select class="gender">
+                    <option value="" selected disabled>Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+
+                <div class="f1">
+                    <label for="address">Address</label><br>
+                    <input type="text" name="address" id="" placeholder="Address" class="add">
+                </div>
+
+                <div class="f1">
+                    <label for="l_qualificatoin">Last Qualification</label><br>
+                    <select name="l_qualificatoin" class="add">
+                        <option value="" selected disabled> Last Qualification</option>
+                        <option value="Matric">Matric</option>
+                        <option value="O_lever">O Level</option>
+                        <option value="Inter">Intermediate</option>
+                        <option value="A_Level"> A Level</option>
+                        <option value="under_graduate">Under Graduate</option>
+                        <option value="Graduate">Graduate</option>
+                        <option value="Master">Master</option>
+                        <option value="M_phil">M Phil</option>
+                        <option value="phd">PHD</option>
+                    </select>
+                 </div>
+                 
+                 <div class="f1">
+                    <label for="laptop">Do you have Laptop?</label><br>
+                    <select name="laptop" class="add">
+                        <option value="" selected disabled>do you have Laptop?</option>
+                        <option value="yes">YES</option>
+                        <option value="No">NO</option>
+                    </select>
+                 </div>
+
+                 <div class="f1">
+                    
+                    <label for="Picture">Picture</label><br><br><br>
+                    <span>
+                    <input type="file" accept="image/*" name="Picture" id="" style="display: none;">
+                    + Upload
+                </span><br><br><BR>
+                <ul class="">
+                    <li class="list">With white or blue background</li>
+                    <li class="list">File size must be less than 1MB</li>
+                    <li class="list">File type: jpg, jpeg, png</li>
+                    <li class="list">Upload your recent passport size picture</li>
+                    <li class="list">Your Face should be clearly visible without any Glasses</li>
+                </ul>
+                
+                 </div>
+            </div>
+            <hr>
+            <div class="f1">
+                <ol>
+                    <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT</li>
+                <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</li>
+                <li>Defiance will render my admission canceled at any point in time.</li>
+                <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+                <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+                </ol>
+            </div>
+            <button type="submit">SUMBIT</button>
+         </form> 
+    </div>
+</body>
+</html>
